@@ -1,0 +1,18 @@
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.menu li {
+    color: #fff;
+}
+
+h1 {
+    padding: 1rem;
+}
+
+header {
+    width: 100%;
+    background-color: rgba($color: #000000, $alpha: 0.8);
+}

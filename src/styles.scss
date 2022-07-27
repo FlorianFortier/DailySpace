@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+.row {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+.jtcn {
+    justify-content: center;
+}
+
+.algi {
+    align-items: center;
+}

@@ -1,0 +1,30 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.carousel-caption {
+    background-color: rgba($color: #000000, $alpha: 0.4);
+}
+
+.carouselExampleCaptions,
+.carousel-inner {
+    width: 100%;
+}
+
+.carousel-caption {
+    opacity: 0;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    color: #fff;
+}
+
+.carousel-item:hover .carousel-caption {
+    opacity: 1;
+}
+
+.nasaImage {
+    height: 70vh;
+}

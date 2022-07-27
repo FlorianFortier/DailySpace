@@ -1,0 +1,28 @@
+.container {
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.picture-of-the-day {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    justify-content: center;
+    height: auto;
+    background-color: #fafafa;
+
+}
+
+.picture-of-the-day h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.picture-of-the-day img {
+    width: 100%;
+    height: auto;
+}
